@@ -1,0 +1,36 @@
+.header {
+    margin-bottom: 30px;
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        .navbar {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .ul_list {
+                display: flex;
+                gap: 50px;
+                .list_style-type {
+                    list-style-type: none;
+                    .navbar_link {
+                        text-decoration: none;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 15px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #000000;
+                        transition: 0.4s ease;
+
+                        &:hover {
+                            color: $color-yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

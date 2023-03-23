@@ -1,0 +1,45 @@
+.main {
+    .main_first-section {
+        .container {
+            .mountain {
+                height: 488px;
+                background: #252420;
+                .block {
+                    z-index: 1;
+                    padding: 50px 0 0 100px;
+                    position: absolute;
+                    .block_title {
+                        font-family: 'Roboto Condensed';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 120%;
+                        letter-spacing: 0.5px;
+                        color: #FFFFFF;
+                        width: 370px;
+                    }
+    
+                    .block_text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        letter-spacing: 0.5px;
+                        color: #FFFFFF;
+                        width: 387px;
+                    }
+                }
+
+                .good {
+                    z-index: 0;
+                    position: relative;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    padding: 50px 100px 0 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+ .first-section {
+    .size {
+    // position: relative;
+    .unperseyf {
+        padding-top: 20px;
+        padding-left: 70px;
+        margin-top: 200px;
+        border-radius: 12px;
+        width: 1100px;
+        height: 419px;
+        background: #252420;
+        position: absolute;
+        h2 {
+            width: 373px;
+            height: 96px; 
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 120%;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+        }
+
+        p {
+            width: 440px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .vido_box {
+            bottom: 100px;
+            position: absolute;
+            background-image: url(../../images/sale-img@2x.png);
+            background-repeat: no-repeat;
+            width: 440px;
+            height: 440px;
+            border-radius: 8px;
+            margin-left: 600px;
+        }
+    }
+}
+}
